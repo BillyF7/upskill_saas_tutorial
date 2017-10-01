@@ -21,17 +21,29 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-body, .navbar {
+.navbar, .home-callout {
   // gradient by webgradients.com
-  background-image: -webkit-linear-gradient(bottom, #48c6ef 0%, #6f86d6 100%);
-  background-image: -moz-linear-gradient(bottom, #48c6ef 0%, #6f86d6 100%);
-  background-image: -o-linear-gradient(bottom, #48c6ef 0%, #6f86d6 100%);
-  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  background-image: -webkit-linear-gradient(left, #4facfe 0%, #00f2fe 100%);
+  background-image: -moz-linear-gradient(left, #4facfe 0%, #00f2fe 100%);
+  background-image: -o-linear-gradient(left, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 
+
+
 .navbar {
   border: none;
+}
+
+
+
+
+.home-callout {
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
